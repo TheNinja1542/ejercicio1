@@ -36,6 +36,7 @@ public class Main {
             System.out.print("Lo logro ");
         } else {
             System.out.print("prueba fallida");
+            System.out.print("holaa ")
         }
     }
 }
