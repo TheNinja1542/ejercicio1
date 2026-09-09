@@ -19,9 +19,7 @@ public class Zoologico {
 
     public void mostrarAnimalesVoladores() {
 
-        System.out.println(
-            "===== ANIMALES VOLADORES ====="
-        );
+        System.out.println("Animales Voladores");
 
         for (Animal animal : animales) {
 
@@ -30,9 +28,7 @@ public class Zoologico {
                 Volador volador =
                     (Volador) animal;
 
-                System.out.println(
-                    volador.volar()
-                );
+                System.out.println(volador.volar());
             }
         }
     }

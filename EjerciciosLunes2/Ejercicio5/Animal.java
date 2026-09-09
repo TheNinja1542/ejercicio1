@@ -6,14 +6,10 @@ public class Animal {
     protected String nombre;
     protected int edad;
 
-    public Animal(
-            String nombre,
-            int edad) throws EdadInvalidaError {
+    public Animal( String nombre, int edad) throws EdadInvalidaError {
 
         if (edad < 0) {
-            throw new EdadInvalidaError(
-                "La edad del animal no puede ser negativa."
-            );
+            throw new EdadInvalidaError("La edad del animal no puede ser negativa." );
         }
 
         this.nombre = nombre;
@@ -22,9 +18,7 @@ public class Animal {
 
     public String hacerSonido() {
 
-        throw new UnsupportedOperationException(
-            "El método hacerSonido() debe ser sobrescrito."
-        );
+        throw new UnsupportedOperationException("El método hacerSonido() debe ser sobrescrito.");
     }
 
     public String getNombre() {
