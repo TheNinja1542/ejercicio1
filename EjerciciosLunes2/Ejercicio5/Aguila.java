@@ -1,11 +1,11 @@
 package EjerciciosLunes2.Ejercicio5;
 
 public class Aguila extends Animal implements Volador {
-    private double envergaduraAlas;
+    private double enbelgaduraAlas;
 
-    public Aguila( String nombre,int edad,double envergaduraAlas) throws EdadInvalidaError {
-                 super(nombre, edad);
-                 this.envergaduraAlas = envergaduraAlas;
+    public Aguila( String nombre,int edad, double enbelgaduraAlas) throws EdadInvalidaError {
+        super(nombre, edad);
+        this.enbelgaduraAlas = enbelgaduraAlas;
     }
 
     @Override
