@@ -5,11 +5,11 @@ import java.util.List;
 
 public class Zoologico {
 
-    private String nombre;
+    
     private List<Animal> animales;
 
     public Zoologico(String nombre) {
-        this.nombre = nombre;
+        
         animales = new ArrayList<>();
     }
 
@@ -25,8 +25,7 @@ public class Zoologico {
 
             if (animal instanceof Volador) {
 
-                Volador volador =
-                    (Volador) animal;
+                Volador volador =(Volador) animal;
 
                 System.out.println(volador.volar());
             }

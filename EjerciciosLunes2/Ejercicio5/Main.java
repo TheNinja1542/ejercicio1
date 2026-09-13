@@ -15,7 +15,7 @@ public class Main {
 
             Pinguino pinguino = new Pinguino("Pipo",3 );
 
-            Aguila aguila = new Aguila("Águila Real",7,2.5 );
+            Aguila aguila = new Aguila("Águila Real",2 );
 
             zoologico.agregarAnimal(leon);
             zoologico.agregarAnimal(pinguino);
